@@ -1,0 +1,97 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    padding: 12px 80px 12px 80px;
+    background-color: black;
+}
+.menuNav1 h3{
+    color: white;
+}
+.menuNav2{
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentNews{
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;;
+}
+.text {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 2;
+}
+/* CSS */
+.otherNews {
+    display: flex;
+    gap: 16px;
+    
+    padding: 20px;
+  }
+  
+  .otherNewsItem {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 30%;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .otherNewsItem img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Ограничение по высоте для картинок */
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .otherNewsItem p {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .readButton {
+    align-self: flex-start; /* Размещение кнопки слева */
+    margin-top: 12px;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    color: white;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .readButton:hover {
+    background-color: #0056b3;
+  }
+  
+
+.latestNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latestNews p{
+    font-size: 2em;
+    font-weight: bold;
+}
